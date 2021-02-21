@@ -3,13 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/eigo/MPLABXProjects/train_lcd.X/train_lib.c</file>
-            <file>file:/C:/Users/eigo/MPLABXProjects/train_lcd.X/DS3231.c</file>
-            <file>file:/C:/Users/eigo/MPLABXProjects/train_lcd.X/i2c.h</file>
-            <file>file:/C:/Users/eigo/MPLABXProjects/train_lcd.X/train_lib.h</file>
-            <file>file:/C:/Users/eigo/MPLABXProjects/train_lcd.X/DS3231.h</file>
-            <file>file:/C:/Users/eigo/MPLABXProjects/train_lcd.X/i2c.c</file>
-            <file>file:/C:/Users/eigo/MPLABXProjects/train_lcd.X/main.c</file>
+            <file>file:/E:/Documents/GitHub/train_lcd/train_lcd.X/money_lib.h</file>
+            <file>file:/E:/Documents/GitHub/train_lcd/train_lcd.X/train_lib.h</file>
+            <file>file:/E:/Documents/GitHub/train_lcd/train_lcd.X/money_lib.c</file>
+            <file>file:/E:/Documents/GitHub/train_lcd/train_lcd.X/main.c</file>
+            <file>file:/E:/Documents/GitHub/train_lcd/train_lcd.X/lcd_lib.c</file>
+            <file>file:/E:/Documents/GitHub/train_lcd/train_lcd.X/train_lib.c</file>
         </group>
     </open-files>
 </project-private>

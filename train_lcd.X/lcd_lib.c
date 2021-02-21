@@ -117,17 +117,12 @@ void lcd_backlight(){
 }
 
 void lcd_clear(){
-    lcd_cmd(0x00);    
-    lcd_cmd(0x04);    
-    lcd_cmd(0x00);  //write4bits(0x00);
-    
-    __delay_us(100);
-    
-    lcd_cmd(0x10);    
-    lcd_cmd(0x14);    
-    lcd_cmd(0x10);  //write4bits(0x10);
-    
-    __delay_ms(50); //takes a long time
+    for(uint8_t row = 0; row < ROW; row++){
+        for(uint8_t col = 0; col < COL; col++){
+            lcd_set_cursor(col, row);
+            lcd_print(" ");
+        }
+    }
 }
 
 void lcd_set_cursor(uint8_t col, uint8_t row){

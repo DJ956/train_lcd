@@ -12,11 +12,9 @@
 void print_train(struct train next, struct train next1);
 void print_remaing(struct Date date, struct train next);
 void print_money(struct Date date, uint16_t money);
-void init_char();
 
 uint16_t money;
-char line1[16];
-char line2[16];
+char line[16];
 
 void main(void)
 {
@@ -38,9 +36,9 @@ void main(void)
     struct Date date;    
     date.year = 21;
     date.month = 2;
-    date.day = 21;
-    date.hour = 18;
-    date.min = 6;
+    date.day = 22;
+    date.hour = 8;
+    date.min = 40;
     date.sec = 0;
     
     money = 0;
@@ -75,56 +73,47 @@ void main(void)
     }
 }
 
-void init_char(){    
-    /*
-    for(uint8_t i = 0; i < 16; i++){
-        line1[i] = ' ';
-        line2[i] = ' ';
-    }
-     * */
-}
 
-void print_train(struct train next, struct train next1){   
-    init_char();
-    sprintf(line1, "KW > MT %02d:%02d", next.hour, next.min);    
-    sprintf(line2, "KW > MT %02d:%02d", next1.hour, next1.min);
-            
+void print_train(struct train next, struct train next1){       
     lcd_clear();
     
+    sprintf(line, "KW > MT %02d:%02d", next.hour, next.min);
     lcd_set_cursor(0, 0);    
-    lcd_print(line1);
+    lcd_print(line);
     
+    sprintf(line, "KW > MT %02d:%02d", next1.hour, next1.min);
     lcd_set_cursor(0, 1);    
-    lcd_print(line2);
+    lcd_print(line);
 }
 
 void print_remaing(struct Date date, struct train next){    
-    init_char();
+    lcd_clear();
+    
     uint16_t now_min = ((uint16_t)date.hour * 60) + date.min;
     uint16_t next_min = ((uint16_t)next.hour * 60) + next.min;
     
-    sprintf(line1, "KW > MT %02d:%02d", next.hour, next.min);    
-    sprintf(line2, "Remaining %d min", (next_min - now_min));
-    
-    lcd_clear();    
-    
+    sprintf(line, "KW > MT %02d:%02d", next.hour, next.min);
     lcd_set_cursor(0, 0);    
-    lcd_print(line1);
+    lcd_print(line);
     
+    sprintf(line, "%d min left", (next_min - now_min));
     lcd_set_cursor(0, 1);    
-    lcd_print(line2);
+    lcd_print(line);      
+    
+    //5min left then led on
+    if((next_min - now_min) < 5){
+        
+    }
 }
 
 void print_money(struct Date date, uint16_t money){  
-    init_char();
-    sprintf(line1, "Time:%02d:%02d", date.hour, date.min);
-    sprintf(line2, "Money:%dYEN", money);
-        
     lcd_clear();
     
+    sprintf(line, "Time :%02d:%02d", date.hour, date.min);
     lcd_set_cursor(0, 0);        
-    lcd_print(line1);
+    lcd_print(line);
     
+    sprintf(line, "Money:%dYEN", money);
     lcd_set_cursor(0, 1);        
-    lcd_print(line2);
+    lcd_print(line);       
 }

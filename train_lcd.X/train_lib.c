@@ -17,13 +17,12 @@ void get_next(struct train *next, uint8_t hour, uint8_t min){
     for(uint8_t i = 0; i < LEN(trains); i++){
         uint16_t t_min = ((uint16_t)trains[i].hour * 60) + trains[i].min;
         
-        if(now_min < t_min){
+        if(now_min < t_min){            
             idx = i;
             break;
         }
-    }
+    }    
     
-    next->idx = idx;
     next->hour = trains[idx].hour;
     next->min = trains[idx].min;
 }
