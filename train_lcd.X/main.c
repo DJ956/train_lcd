@@ -35,15 +35,15 @@ void main(void)
     
     struct Date date;    
     date.year = 21;
-    date.month = 2;
-    date.day = 22;
-    date.hour = 8;
-    date.min = 40;
+    date.month = 3;
+    date.day = 1;
+    date.hour = 21;
+    date.min = 46;
     date.sec = 0;
     
     money = 0;
     
-    write_date(&date);
+    //write_date(&date);
         
     struct train next;
     struct train next1;
