@@ -3,19 +3,19 @@
 [d edition pro ]
 [d chip 16F1827 ]
 [d frameptr 6 ]
-"1 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+"1 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\abs.c
 [v _abs abs `(i  1 e 2 0 ]
-"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
 [v ___aodiv __aodiv `(o  1 e 8 0 ]
-"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
 [v ___aomod __aomod `(o  1 e 8 0 ]
-"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\atoi.c
 [v _atoi atoi `(i  1 e 2 0 ]
-"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\awdiv.c
 [v ___awdiv __awdiv `(i  1 e 2 0 ]
-"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\awmod.c
 [v ___awmod __awmod `(i  1 e 2 0 ]
-"72 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+"72 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
 [v _pad pad `(i  1 s 2 pad ]
 "287
 [v _dtoa dtoa `(i  1 s 2 dtoa ]
@@ -23,29 +23,29 @@
 [v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
 "1390
 [v _vfprintf vfprintf `(i  1 e 2 0 ]
-"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\isdigit.c
 [v _isdigit isdigit `(i  1 e 2 0 ]
-"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\isspace.c
 [v _isspace isspace `(i  1 e 2 0 ]
-"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
 [v _fputc fputc `(i  1 e 2 0 ]
-"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputs.c
 [v _fputs fputs `(i  1 e 2 0 ]
-"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+"9 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_sprintf.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
-"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\putch.c
 [v _putch putch `(v  1 e 1 0 ]
-"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
-"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
 [v _strlen strlen `(ui  1 e 2 0 ]
-"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+"15 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
-"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8.c
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul8.c
 [v ___bmul __bmul `(uc  1 e 1 0 ]
-"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul8_16.c
 [v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
-"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\pic\__eeprom.c
+"6 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\pic\__eeprom.c
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
@@ -105,8 +105,8 @@
 [v _get_next get_next `(v  1 e 1 0 ]
 [s S93 train 2 `uc 1 hour 1 0 `uc 1 min 1 1 ]
 "18 C:\Users\dexte\Documents\GitHub\train_lcd\train_lcd.X/train_lib.h
-[v _trains trains `[43]S93  1 e 86 @8474 ]
-"1153 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic16f1827.h
+[v _trains trains `[53]S93  1 e 106 @8454 ]
+"1153 C:\Program Files\Microchip\xc8\v2.35\pic\include\proc\pic16f1827.h
 [v _TRISA TRISA `VEuc  1 e 1 @140 ]
 "1215
 [v _TRISB TRISB `VEuc  1 e 1 @141 ]
@@ -199,7 +199,7 @@
 "4480
 [u S269 . 1 `S260 1 . 1 0 ]
 [v _SSP2CON2bits SSP2CON2bits `VES269  1 e 1 @542 ]
-"55 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+"55 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
 [v _flags flags `i  1 s 2 flags ]
 [v _prec prec `i  1 s 2 prec ]
 [v _width width `i  1 s 2 width ]
@@ -220,12 +220,12 @@
 {
 [s S134 Date 6 `uc 1 year 1 0 `uc 1 month 1 1 `uc 1 day 1 2 `uc 1 hour 1 3 `uc 1 min 1 4 `uc 1 sec 1 5 ]
 "36
-[v main@date date `S134  1 a 6 31 ]
+[v main@date date `S134  1 a 6 32 ]
 [s S93 train 2 `uc 1 hour 1 0 `uc 1 min 1 1 ]
 "48
-[v main@next next `S93  1 a 2 29 ]
+[v main@next next `S93  1 a 2 30 ]
 "49
-[v main@next1 next1 `S93  1 a 2 27 ]
+[v main@next1 next1 `S93  1 a 2 28 ]
 "74
 } 0
 "77 C:\Users\dexte\Documents\GitHub\train_lcd\train_lcd.X\DS3231.c
@@ -274,7 +274,7 @@
 [v bcd_2_decimal@number number `uc  1 a 1 7 ]
 "20
 } 0
-"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8.c
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul8.c
 [v ___bmul __bmul `(uc  1 e 1 0 ]
 {
 [v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
@@ -291,87 +291,88 @@
 [v _print_train print_train `(v  1 e 1 0 ]
 {
 [s S93 train 2 `uc 1 hour 1 0 `uc 1 min 1 1 ]
-[v print_train@next next `S93  1 p 2 13 ]
-[v print_train@next1 next1 `S93  1 p 2 15 ]
+[v print_train@next next `S93  1 p 2 12 ]
+[v print_train@next1 next1 `S93  1 p 2 14 ]
 "87
 } 0
 "89
 [v _print_remaing print_remaing `(v  1 e 1 0 ]
 {
 "93
-[v print_remaing@next_min next_min `us  1 a 2 23 ]
+[v print_remaing@next_min next_min `us  1 a 2 26 ]
 "92
-[v print_remaing@now_min now_min `us  1 a 2 21 ]
+[v print_remaing@now_min now_min `us  1 a 2 24 ]
 [s S134 Date 6 `uc 1 year 1 0 `uc 1 month 1 1 `uc 1 day 1 2 `uc 1 hour 1 3 `uc 1 min 1 4 `uc 1 sec 1 5 ]
 "89
-[v print_remaing@date date `S134  1 p 6 13 ]
+[v print_remaing@date date `S134  1 p 6 12 ]
 [s S93 train 2 `uc 1 hour 1 0 `uc 1 min 1 1 ]
-[v print_remaing@next next `S93  1 p 2 19 ]
+[v print_remaing@next next `S93  1 p 2 18 ]
 "107
 } 0
 "109
 [v _print_money print_money `(v  1 e 1 0 ]
 {
 [s S134 Date 6 `uc 1 year 1 0 `uc 1 month 1 1 `uc 1 day 1 2 `uc 1 hour 1 3 `uc 1 min 1 4 `uc 1 sec 1 5 ]
-[v print_money@date date `S134  1 p 6 13 ]
-[v print_money@money money `us  1 p 2 19 ]
+[v print_money@date date `S134  1 p 6 12 ]
+[v print_money@money money `us  1 p 2 18 ]
 "119
 } 0
-"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+"9 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_sprintf.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
 {
 [v sprintf@s s `*.4uc  1 a 1 wreg ]
-[s S946 _IO_FILE 5 `*.4uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
+[u S946 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
 "13
-[v sprintf@f f `S946  1 a 5 8 ]
+[s S949 _IO_FILE 10 `S946 1 . 2 0 `i 1 count 2 2 `[2]uc 1 ungetbuf 2 4 `i 1 ungetcnt 2 6 `i 1 limit 2 8 ]
+[v sprintf@f f `S949  1 a 10 2 ]
 "12
-[v sprintf@ap ap `[1]*.4v  1 a 1 6 ]
+[v sprintf@ap ap `[1]*.4v  1 a 1 0 ]
 "9
 [v sprintf@s s `*.4uc  1 a 1 wreg ]
-[v sprintf@fmt fmt `*.25DCuc  1 p 2 0 ]
+[v sprintf@fmt fmt `*.25DCuc  1 p 2 72 ]
 "15
-[v sprintf@s s `*.4uc  1 a 1 7 ]
+[v sprintf@s s `*.4uc  1 a 1 1 ]
 "23
 } 0
-"1390 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+"1390 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
 [v _vfprintf vfprintf `(i  1 e 2 0 ]
 {
-[s S972 _IO_FILE 0 ]
-[v vfprintf@fp fp `*.4S972  1 a 1 wreg ]
+[s S981 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.4S981  1 a 1 wreg ]
 "1393
-[v vfprintf@cfmt cfmt `*.25uc  1 a 2 73 ]
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 70 ]
 "1390
-[v vfprintf@fp fp `*.4S972  1 a 1 wreg ]
-[v vfprintf@fmt fmt `*.25DCuc  1 p 2 67 ]
-[v vfprintf@ap ap `*.4*.4v  1 p 1 69 ]
+[v vfprintf@fp fp `*.4S981  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.25DCuc  1 p 2 64 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 66 ]
 "1395
 "1390
-[v vfprintf@fp fp `*.4S972  1 a 1 72 ]
+[v vfprintf@fp fp `*.4S981  1 a 1 69 ]
 "1404
 } 0
 "692
 [v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
 {
-[s S972 _IO_FILE 0 ]
-[v vfpfcnvrt@fp fp `*.4S972  1 a 1 wreg ]
+[s S981 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.4S981  1 a 1 wreg ]
 "696
-[v vfpfcnvrt@ll ll `o  1 a 8 54 ]
+[v vfpfcnvrt@ll ll `o  1 a 8 53 ]
 "695
-[v vfpfcnvrt@done done `i  1 a 2 62 ]
+[v vfpfcnvrt@done done `i  1 a 2 61 ]
 "692
-[v vfpfcnvrt@fp fp `*.4S972  1 a 1 wreg ]
+[v vfpfcnvrt@fp fp `*.4S981  1 a 1 wreg ]
 [v vfpfcnvrt@fmt fmt `*.4*.25uc  1 p 1 46 ]
 [v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 47 ]
 "702
 "692
-[v vfpfcnvrt@fp fp `*.4S972  1 a 1 66 ]
+[v vfpfcnvrt@fp fp `*.4S981  1 a 1 63 ]
 "1387
 } 0
 "287
 [v _dtoa dtoa `(i  1 s 2 dtoa ]
 {
-[s S972 _IO_FILE 0 ]
-[v dtoa@fp fp `*.4S972  1 a 1 wreg ]
+[s S981 _IO_FILE 0 ]
+[v dtoa@fp fp `*.4S981  1 a 1 wreg ]
 "290
 [v dtoa@n n `o  1 a 8 36 ]
 "289
@@ -380,31 +381,31 @@
 [v dtoa@w w `i  1 a 2 32 ]
 [v dtoa@p p `i  1 a 2 30 ]
 "287
-[v dtoa@fp fp `*.4S972  1 a 1 wreg ]
+[v dtoa@fp fp `*.4S981  1 a 1 wreg ]
 [v dtoa@d d `o  1 p 8 16 ]
 "293
 "287
-[v dtoa@fp fp `*.4S972  1 a 1 29 ]
+[v dtoa@fp fp `*.4S981  1 a 1 29 ]
 "328
 } 0
 "72
 [v _pad pad `(i  1 s 2 pad ]
 {
-[s S972 _IO_FILE 0 ]
-[v pad@fp fp `*.4S972  1 a 1 wreg ]
+[s S981 _IO_FILE 0 ]
+[v pad@fp fp `*.4S981  1 a 1 wreg ]
 "74
 [v pad@w w `i  1 a 2 9 ]
 [v pad@i i `i  1 a 2 7 ]
 "72
-[v pad@fp fp `*.4S972  1 a 1 wreg ]
+[v pad@fp fp `*.4S981  1 a 1 wreg ]
 [v pad@buf buf `*.5uc  1 p 1 4 ]
 [v pad@p p `i  1 p 2 5 ]
 "77
 "72
-[v pad@fp fp `*.4S972  1 a 1 11 ]
+[v pad@fp fp `*.4S981  1 a 1 11 ]
 "95
 } 0
-"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
 [v _strlen strlen `(ui  1 e 2 0 ]
 {
 [v strlen@s s `*.5DCuc  1 a 1 wreg ]
@@ -416,7 +417,7 @@
 [v strlen@s s `*.5DCuc  1 a 1 4 ]
 "12
 } 0
-"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputs.c
 [v _fputs fputs `(i  1 e 2 0 ]
 {
 [v fputs@s s `*.5DCuc  1 a 1 wreg ]
@@ -426,32 +427,34 @@
 [v fputs@c c `uc  1 a 1 0 ]
 "8
 [v fputs@s s `*.5DCuc  1 a 1 wreg ]
-[s S946 _IO_FILE 5 `*.4uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
-[v fputs@fp fp `*.4S946  1 p 1 8 ]
+[u S946 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S949 _IO_FILE 10 `S946 1 . 2 0 `i 1 count 2 2 `[2]uc 1 ungetbuf 2 4 `i 1 ungetcnt 2 6 `i 1 limit 2 8 ]
+[v fputs@fp fp `*.4S949  1 p 1 8 ]
 "13
 [v fputs@s s `*.5DCuc  1 a 1 3 ]
 "19
 } 0
-"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
 [v _fputc fputc `(i  1 e 2 0 ]
 {
 [v fputc@c c `i  1 p 2 0 ]
-[s S946 _IO_FILE 5 `*.4uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
-[v fputc@fp fp `*.4S946  1 p 1 2 ]
+[u S946 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S949 _IO_FILE 10 `S946 1 . 2 0 `i 1 count 2 2 `[2]uc 1 ungetbuf 2 4 `i 1 ungetcnt 2 6 `i 1 limit 2 8 ]
+[v fputc@fp fp `*.4S949  1 p 1 2 ]
 "24
 } 0
-"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\putch.c
 [v _putch putch `(v  1 e 1 0 ]
 {
 "9
 } 0
-"1 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+"1 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\abs.c
 [v _abs abs `(i  1 e 2 0 ]
 {
 [v abs@a a `i  1 p 2 3 ]
 "4
 } 0
-"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
 [v ___aomod __aomod `(o  1 e 8 0 ]
 {
 "12
@@ -462,7 +465,7 @@
 [v ___aomod@dividend dividend `o  1 p 8 8 ]
 "36
 } 0
-"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
 [v ___aodiv __aodiv `(o  1 e 8 0 ]
 {
 "12
@@ -475,23 +478,23 @@
 [v ___aodiv@dividend dividend `o  1 p 8 8 ]
 "43
 } 0
-"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\atoi.c
 [v _atoi atoi `(i  1 e 2 0 ]
 {
 "6
-[v atoi@n n `i  1 a 2 7 ]
+[v atoi@n n `i  1 a 2 2 ]
 [v atoi@neg neg `i  1 a 2 0 ]
 "4
 [v atoi@s s `*.25DCuc  1 p 2 6 ]
 "16
 } 0
-"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\isspace.c
 [v _isspace isspace `(i  1 e 2 0 ]
 {
 [v isspace@c c `i  1 p 2 0 ]
 "8
 } 0
-"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\isdigit.c
 [v _isdigit isdigit `(i  1 e 2 0 ]
 {
 [v isdigit@c c `i  1 p 2 0 ]
@@ -517,7 +520,7 @@
 "128
 [v lcd_set_cursor@col col `uc  1 a 1 wreg ]
 [v lcd_set_cursor@row row `uc  1 p 1 8 ]
-[v lcd_set_cursor@F2502 F2502 `[4]uc  1 s 4 F2502 ]
+[v lcd_set_cursor@F2511 F2511 `[4]uc  1 s 4 F2511 ]
 [v lcd_set_cursor@col col `uc  1 a 1 4 ]
 "135
 } 0
@@ -615,7 +618,7 @@
 [v calc_money@date date `S134  1 p 6 6 ]
 "32
 } 0
-"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+"15 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
 {
 "17
